@@ -1,0 +1,13 @@
+# --- Build & Artifacts ---
+target/
+.mvn/
+*.log
+*.dump
+dumpstream
+
+# --- Persistence Files ---
+# Ignore all .txt files:
+*.txt
+
+# --- NonDex Specific Files ---
+.nondex/
